@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Source') {
             steps {
-                git branch: 'main', url: 'https://github.com/harikagadagotti/flask-docker-demo.git'
+                git branch: 'main', url: 'https://github.com/HarikaGadagotti/flask-demo'
             }
         }
 
